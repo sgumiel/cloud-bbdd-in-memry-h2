@@ -1,0 +1,12 @@
+spring: 
+  application:
+    name: bbdd-in-memory
+  datasource:
+    url: jdbc:h2:mem:cloud-bbdd
+    driverClassName: org.h2.Driver
+    username: cloud
+    password: cloud
+
+  h2:
+    console:
+      enabled: true # Enabling H2 Console
